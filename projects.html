@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Your Name</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Nidhi<span>Singh</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <button id="theme-toggle" class="theme-toggle">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                        </button>
+                    </li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="projects-section">
+        <div class="container">
+            <h1>My Projects</h1>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="development">Development</button>
+                <button class="filter-btn" data-filter="marketing">Marketing</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Development Project 1 -->
+                <div class="project-card" data-category="development">
+                    <img src="assets/project1.jpg" alt="Project 1">
+                    <div class="project-info">
+                        <h3>E-commerce Website</h3>
+                        <p>A fully responsive e-commerce site built with React and Node.js</p>
+                        <div class="project-links">
+                            <a href="#" class="btn">Live Demo</a>
+                            <a href="#" class="btn secondary">Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Marketing Project 1 -->
+                <div class="project-card" data-category="marketing">
+                    <img src="assets/project2.jpg" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Digital Marketing Campaign</h3>
+                        <p>Social media strategy that increased engagement by 150%</p>
+                        <div class="project-links">
+                            <a href="#" class="btn">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Development Project 2 -->
+                <div class="project-card" data-category="development">
+                    <img src="assets/project3.jpg" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Portfolio Template</h3>
+                        <p>A customizable portfolio template for creatives</p>
+                        <div class="project-links">
+                            <a href="#" class="btn">Live Demo</a>
+                            <a href="#" class="btn secondary">Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Marketing Project 2 -->
+                <div class="project-card" data-category="marketing">
+                    <img src="assets/project4.jpg" alt="Project 4">
+                    <div class="project-info">
+                        <h3>Brand Positioning Strategy</h3>
+                        <p>Rebranding strategy for a local business</p>
+                        <div class="project-links">
+                            <a href="#" class="btn">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Nidhi. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
